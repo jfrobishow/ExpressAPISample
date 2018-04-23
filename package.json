@@ -1,0 +1,19 @@
+{
+  "name": "apisample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prod": "node .",
+    "start": "node ./node_modules/nodemon/bin/nodemon.js ."
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
